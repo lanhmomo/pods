@@ -25,11 +25,11 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '8.0'
 
-  spec.source_files = 'MoMoSdk/**/*'
+  spec.source_files = 'MoMoSdk/Classes/**/*'
   
-  # spec.resource_bundles = {
-  #   'MoMoSdk' => ['MoMoSdk/Assets/*.png']
-  # }
+  spec.resource_bundles = {
+     'MoMoSdk' => ['MoMoSdk/Assets/*.png']
+  }
 
   # spec.public_header_files = 'Pod/**/*.h'
   # spec.frameworks = 'UIKit', 'MapKit'
