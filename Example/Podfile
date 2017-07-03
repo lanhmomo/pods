@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MoMoSdk_Example' do
+  pod 'MoMoSdk', :path => '../'
+
+  target 'MoMoSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
