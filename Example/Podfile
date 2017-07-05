@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'MoMoSdk_Example' do
   #pod 'MoMoSdk', :path => '../'
-  pod 'MoMoSdk', :git => 'https://github.com/lanhmomo/pods/pods.git', :branch => 'master'
+  pod 'MoMoSdk', :git => 'https://github.com/lanhmomo/pods/pods.git', :branch => 'master' , submodules: true
   target 'MoMoSdk_Tests' do
     inherit! :search_paths
 
