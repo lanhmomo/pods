@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.homepage         = 'https://github.com/lanhmomo/pods.git'
-  # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  spec.screenshots     = 'https://app.momo.vn:82/momo_app_v2/img/sdk/SDK_App_1.jpg', 'https://app.momo.vn:82/momo_app_v2/img/sdk/SDK_App_2.jpg'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Luu Lanh' => 'lanh.luu@mservice.com.vn' }
   spec.source           = { :git => 'https://github.com/lanhmomo/pods.git', :tag => s.version.to_s }
